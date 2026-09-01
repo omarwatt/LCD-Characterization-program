@@ -14,7 +14,7 @@ A Python-controlled laboratory system for applying AC drive signals to a liquid-
 
 ## Architecture
 
-`GUI(4).py` contains the application, device-selection dialog, drive-output logic, and detector interfaces. NI hardware drives the cell and reads the photodiode; the camera and spectrometer use their own acquisition interfaces.
+`GUI.py` contains the application, device-selection dialog, drive-output logic, and detector interfaces. NI hardware drives the cell and reads the photodiode; the camera and spectrometer use their own acquisition interfaces.
 
 ![System overview](docs/images/system-diagram.png)
 *The report’s conceptual diagram summarizes PC control, electrical drive, the liquid-crystal cell, and optical acquisition.*
@@ -61,7 +61,7 @@ Camera acquisition was demonstrated, but the reported 0.67% intensity variation 
 
 1. Prepare a Windows Python environment with Tkinter and the packages listed above. Camera support additionally uses `pygrabber`, `comtypes`, and `pywin32`.
 2. Install NI-DAQmx and the required camera/spectrometer drivers. Install the Avantes SDK or place its DLL beside the script, matching the Python architecture.
-3. Connect the instruments, confirm the DAQ channels, and launch `python "GUI(4).py"`.
+3. Connect the instruments, confirm the DAQ channels, and launch `python "GUI.py"`.
 4. Select the acquisition device, configure the measurement, and save results through the GUI.
 
 Package versions, vendor drivers/DLLs, and a complete installation configuration are not bundled.
