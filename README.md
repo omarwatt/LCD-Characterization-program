@@ -66,6 +66,6 @@ Camera acquisition was demonstrated, but the reported 0.67% intensity variation 
 
 Package versions, vendor drivers/DLLs, and a complete installation configuration are not bundled.
 
-## Limitations and Attribution
+## Attribution
 
 Project by **Omar Wattad**, supervised by **Prof. Ibrahim Abdulhalim**, at Ben-Gurion University.
