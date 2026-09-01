@@ -52,10 +52,10 @@ Camera acquisition was demonstrated, but the reported 0.67% intensity variation 
 
 ## Repository Structure
 
-- `GUI(4).py`: application and instrument interfaces.
-- `fin-2026-129(1).docx`: project report and measurements.
+- `GUI.py`: application and instrument interfaces.
+- `fin-2026-129.pdf`: project report and measurements.
 - `docs/images/`: five selected design and results figures.
-- `Results/` and `daq_config_v2.json`: runtime output/configuration paths used by the application.
+
 
 ## How to Run
 
@@ -67,7 +67,5 @@ Camera acquisition was demonstrated, but the reported 0.67% intensity variation 
 Package versions, vendor drivers/DLLs, and a complete installation configuration are not bundled.
 
 ## Limitations and Attribution
-
-The supplied measurements are steady-state data. The report describes voltage-sweep and switching-time routines, but the supplied GUI exposes continuous optical, camera, and spectrometer modes; those additional routines are not present in this file. Synchronized switching measurements and the full configured drive range remain unvalidated. Raw measurement files are not included.
 
 Project by **Omar Wattad**, supervised by **Prof. Ibrahim Abdulhalim**, at Ben-Gurion University.
